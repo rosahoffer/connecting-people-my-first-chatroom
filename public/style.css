@@ -78,6 +78,8 @@ section ul {
   overflow-y: scroll;
 }
 
+/* BRON van https://stackoverflow.com/questions/5080699/how-can-i-style-even-and-odd-elements */
+
 section ul > li:nth-child(odd) {
   color: var(--p-color);
   font-size: 0.8rem;
